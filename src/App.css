@@ -1,0 +1,7 @@
+.custom-nav-container {
+    position:relative;
+}
+.custom-nav-container:before {
+    @apply absolute top-0 left-0 h-full border-l-2 border-geyser border-0 border-solid;
+    content: " ";
+}

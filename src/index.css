@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    src: url('@/assets/fonts/Inter.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-greenWhite;
+}
+
+body, #root {
+    @apply flex flex-col m-0 h-screen;
+}
